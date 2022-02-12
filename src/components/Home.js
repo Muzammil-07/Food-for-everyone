@@ -16,8 +16,6 @@ const Home =()=>{
    
     const user= firebase.auth().currentUser;
     const user1 = localStorage.getItem("User");
-   
-   
   },[])
 return(
     <div className="App">
